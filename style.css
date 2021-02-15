@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  margin: 0px;
+  width: 800px;
+  border: 5px black solid;
+}
+.grid1 {
+  display: grid;
+  grid-template-rows: 300px 230px;
+  width: 800px;
+}
+.grid2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 4fr;
+  width: 800px;
+}
+#selectRandom {
+  margin: 5px 200px;
+  padding: 5px;
+  font-size: 25px;
+  width: 400px;
+  height: 40px;
+}
+.selectSelf {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 800px;
+  height: 40px;
+  padding: 5px 0px;
+  font-size: 25px;
+}
+#selectSelf1,
+#selectSelf2,
+#selectSelf3,
+#selectSelf4,
+#selectSelf5,
+#selectSelf6,
+#selectSelf7,
+#selectSelfChoose {
+  margin: 5px;
+}
+.showPick {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 780px;
+  margin: 50px 10px;
+  font-size: 25px;
+}
+#showPick1,
+#showPick2,
+#showPick3,
+#showPick4,
+#showPick5,
+#showPick6,
+#showPick7,
+#showResult1,
+#showResult2,
+#showResult3,
+#showResult4,
+#showResult5,
+#showResult6,
+#showResult7 {
+  height: 90px;
+  margin: 5px;
+  width: 84px;
+  padding: 0px;
+  border: 0px;
+  text-align: center;
+  font-size: 20px;
+}
+.underPart {
+  width: 800px;
+  border-top: 5px black solid;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 800px;
+  font-size: 25px;
+}
+#plus {
+  padding: 33px 0px;
+}
+#compare {
+  display: none;
+}
